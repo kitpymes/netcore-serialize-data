@@ -11,7 +11,7 @@ namespace SerializeData
         public string DefaultCompanyName { get; set; }
         public string DefaultIdentityProvider { get; set; }
         public string DefaultPlainPassword { get; set; }
-        public EmailConfig EmailConfig { get; set; }
-        public LoginProviderConfig LoginProviderConfig { get; set; }
+        public EmailConfig Email { get; set; }
+        public LoginProviderConfig LoginProvider { get; set; }
     }
 }
